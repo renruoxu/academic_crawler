@@ -28,4 +28,4 @@ The `run.sh` file will run the crawler and setup a server to view the contents.
 bash run.sh
 ```
 
-Go to `localhost:8880` to view the crawled content.
+Go to `localhost:8889` to view the crawled content.
