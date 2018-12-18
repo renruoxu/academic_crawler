@@ -1,0 +1,12 @@
+<html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+        </head>
+        <h1>Automated Crawled Information about Machine Learning</h1>
+        <h2>AI Blogs</h2>
+        {% for blog in blogs %}
+            <a href={{ blog["url"] }}>
+                {{blog["title"]}}
+            </a> <br>
+        {% endfor %}
+</html>
