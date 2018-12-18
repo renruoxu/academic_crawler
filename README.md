@@ -20,5 +20,12 @@
 
 - pip
 
-## Setup
+## Run crawler
 
+The `run.sh` file will run the crawler and setup a server to view the contents.
+
+```
+bash run.sh
+```
+
+Go to `localhost:8880` to view the crawled content.
